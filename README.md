@@ -114,7 +114,7 @@ Description: Get the view by viewId
 
 Method: GET
 
-URL: http://localhost:8080/view/<viewId>
+URL: http://localhost:8080/view/viewId
 
 Response: 
 
@@ -143,7 +143,7 @@ Description: Delete a view by viewId
 
 Method: DELETE
 
-URL: http://localhost:8080/view/<viewId>
+URL: http://localhost:8080/view/viewId
 
 Response: HTTP STATUS OK
 
@@ -160,7 +160,7 @@ Description: Update a view by viewId
 
 Method: PUT
 
-URL: http://localhost:8080/view/<viewId>
+URL: http://localhost:8080/view/viewId
 
 Request Body:
 
