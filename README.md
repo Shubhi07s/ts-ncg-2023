@@ -36,7 +36,8 @@ URL: http://localhost:8080/view
 Request Body:
 
 
-```{   
+```
+{   
     "name": "Shubhi",
     "chartType": "column",
     "country": "IN",
@@ -50,7 +51,8 @@ Request Body:
 Response: 
 
 
-```{
+```
+{
     "viewId": 1,
     "name": "Shubhi",
     "chartType": "column",
@@ -79,7 +81,8 @@ URL: http://localhost:8080/view
 
 Response: 
 
-```[
+```
+[
     {
         "viewId": 1,
         "name": "Shubhi",
@@ -115,7 +118,8 @@ URL: http://localhost:8080/view/<viewId>
 
 Response: 
 
-```{
+```
+{
     "viewId": 1,
     "name": "Shubhi",
     "chartType": "column",
@@ -160,7 +164,8 @@ URL: http://localhost:8080/view/<viewId>
 
 Request Body:
 
-```{   
+```
+{   
     "name": "ShubhiUpdate123",
     "chartType": "column",
     "country": "IN",
@@ -172,7 +177,8 @@ Request Body:
 
 Response: 
 
-```{
+```
+{
     "viewId": 1,
     "name": "ShubhiUpdate123",
     "chartType": "column",
